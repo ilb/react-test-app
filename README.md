@@ -15,3 +15,7 @@
 - Дата документа - формат дд.мм.гггг, поле docDate
 
 Данные для таблицы в файле data.json
+
+Ссылки
+- https://facebook.github.io/react/docs/hello-world.html
+- https://github.com/facebookincubator/create-react-app
