@@ -1,0 +1,14 @@
+.form {
+    padding: 1rem 0;
+    max-width: 50rem;
+}
+
+.row {
+    padding: 0.1rem;
+}
+
+input {
+    width: 15rem;
+    margin-left: 1rem;
+    float: right;
+}
