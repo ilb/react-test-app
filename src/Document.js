@@ -48,7 +48,9 @@ class Document extends Component {
     }
   }
 
-  openEditForm = () => {
+  openEditForm = e => {
+    e.preventDefault();
+
     this.setState({ isExpanded: true });
     document.addEventListener('click', this.handleClickOutside, true);
   };
@@ -58,12 +60,12 @@ class Document extends Component {
   }
 
   renderRow = () => (
-    <tr onClick={this.openEditForm}>
+    <tr>
       <td>
         {this.state.docDate}
       </td>
       <td>
-        {this.state.displayName}
+        <a href="#" onClick={this.openEditForm}>{this.state.displayName}</a>
       </td>
     </tr>
   )
