@@ -1,0 +1,33 @@
+{
+  "name": "bystro-bank-test-app",
+  "author": "Pavel Barmin",
+  "description": "Тестовое задание выполнено с использованием только react и дев-окружения create-react-app. \n В реальном проекте я бы для таких задач использовал какую-нибудь глобальную стэйт-машину, типа mobx, что позволило бы использовать более независимые компоненты и избежать пробрасывания пропсов и колбэков по дереву компонентов. \n Для более красивого внешнего вида подключен css фреймворк Materialize CSS",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
