@@ -18,4 +18,5 @@
 
 Ссылки
 - https://nextjs.org/learn/basics/create-nextjs-app
-- [NextJS Быстрый Курс](https://www.youtube.com/watch?v=_EOrSmjdOZQ)
+- [NextJS Быстрый Видео-курс](https://www.youtube.com/watch?v=_EOrSmjdOZQ)
+- [NextJS для начинающих](https://vanillaweb.ru/next-js-dlya-nachinauschich/)
