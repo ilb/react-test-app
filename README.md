@@ -1,7 +1,7 @@
 # react-test-app
 Тестовое задание по React
 
-Используя React написать приложние вывода списка документов в виде таблицы с полями:
+Используя [NextJS](https://nextjs.org/) написать приложние вывода списка документов в виде таблицы с полями:
 "Дата документа", "Наименование документа"
 
 Описание полей
@@ -17,5 +17,5 @@
 Данные для таблицы в файле data.json
 
 Ссылки
-- https://facebook.github.io/react/docs/hello-world.html
-- https://github.com/facebookincubator/create-react-app
+- https://nextjs.org/learn/basics/create-nextjs-app
+- [NextJS Быстрый Курс](https://www.youtube.com/watch?v=_EOrSmjdOZQ)
