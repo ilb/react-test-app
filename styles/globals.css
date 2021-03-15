@@ -1,0 +1,17 @@
+body
+{
+	font-family: Arial, sans-serif;
+}
+
+.table.fixed{
+	text-align: left;
+	width: 50%;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.App-link {
+	color: #0061e0;
+}
