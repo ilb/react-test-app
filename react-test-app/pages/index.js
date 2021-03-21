@@ -9,7 +9,7 @@ const siteTitle = 'Table with documents'
 
 export default function Docs({ docs }){  
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>{siteTitle}</title> 
       </Head>
