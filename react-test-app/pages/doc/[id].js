@@ -1,5 +1,5 @@
 import {Layout} from '../../components/layout'
-import Date from '../components/date'
+import Date from '../../components/date'
 
 export default function Doc( {doc} ) {
   return( 
