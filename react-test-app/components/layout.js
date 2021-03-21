@@ -1,4 +1,4 @@
-export function Layout() {
+export function Layout({ children }) {
   return (
     <>
       <nav>
