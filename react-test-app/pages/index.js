@@ -3,6 +3,7 @@ import Head from 'next/head'
 import TableStyles from '../components/table.module.css'
 import Date from '../components/date'
 import {Layout} from '../components/layout'
+import Link from 'next/link'
 
 const siteTitle = 'Table with documents'
 
@@ -25,8 +26,16 @@ export default function Docs({ docs }){
             {docs.map( doc => (
               <tr>
                 <th className={TableStyles.th} scope="row">{doc.id}</th>
-                <th className={TableStyles.th} scope="col"><Date dateString={doc.docDate} /></th>
-                <th className={TableStyles.th} scope="col">{doc.displayName}</th>
+                <th className={TableStyles.th} scope="col">
+                  <Date dateString={doc.docDate} />
+                </th>
+                <th className={TableStyles.th} scope="col">
+                  <Link href={`/doc/${doc.id}`}>
+                    <a>
+                      {doc.displayName}
+                    </a>
+                  </Link>
+                </th>
               </tr>
             ))}
           </tbody>
