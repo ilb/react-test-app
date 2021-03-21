@@ -1,10 +1,10 @@
-table {
+.table {
    border-collapse: collapse;
    border: 1px solid grey;
    width: 600px;
 }
 
-th, td {
+.th, .td {
    border: 1px solid grey;
    width: 20%;
    padding: 10px 15px;
